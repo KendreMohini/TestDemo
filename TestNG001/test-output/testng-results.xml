@@ -1,101 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-08T22:11:08 IST" name="Default suite" finished-at="2023-02-08T22:11:28 IST" duration-ms="19735">
+  <suite started-at="2023-02-13T14:29:29 IST" name="Default suite" finished-at="2023-02-13T14:29:33 IST" duration-ms="4368">
     <groups>
-      <group name="Return To Home Page">
-        <method signature="TestNG_Task3_WithAttributes.test1()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" name="test1" class="testNG.TestNG_Task3_WithAttributes"/>
-        <method signature="TestNG_Task3_WithAttributes.test6()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" name="test6" class="testNG.TestNG_Task3_WithAttributes"/>
-      </group> <!-- Return To Home Page -->
     </groups>
-    <test started-at="2023-02-08T22:11:08 IST" name="Default test" finished-at="2023-02-08T22:11:28 IST" duration-ms="19735">
-      <class name="testNG.TestNG_Task3_WithAttributes">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:06 IST" name="beforeSuite" finished-at="2023-02-08T22:11:08 IST" duration-ms="2163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:08 IST" name="beforeTest" finished-at="2023-02-08T22:11:08 IST" duration-ms="141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:08 IST" name="beforeClass" finished-at="2023-02-08T22:11:09 IST" duration-ms="1072" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:09 IST" name="beforeMethod" finished-at="2023-02-08T22:11:09 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:09 IST" name="test1" finished-at="2023-02-08T22:11:10 IST" duration-ms="872" status="PASS">
+    <test started-at="2023-02-13T14:29:29 IST" name="Default test" finished-at="2023-02-13T14:29:33 IST" duration-ms="4368">
+      <class name="testNG_Practice.Asserts">
+        <test-method signature="test1()[pri:0, instance:testNG_Practice.Asserts@7690781]" started-at="2023-02-13T14:29:29 IST" name="test1" description="Inside method test1()" finished-at="2023-02-13T14:29:31 IST" duration-ms="2675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:10 IST" name="afterMethod" finished-at="2023-02-08T22:11:13 IST" duration-ms="2287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:13 IST" name="beforeMethod" finished-at="2023-02-08T22:11:13 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:13 IST" name="test2" description="this is Test-case Two." finished-at="2023-02-08T22:11:14 IST" duration-ms="1232" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testNG_Practice.Asserts@7690781]" started-at="2023-02-13T14:29:31 IST" name="test2" finished-at="2023-02-13T14:29:33 IST" duration-ms="1658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:14 IST" name="afterMethod" finished-at="2023-02-08T22:11:16 IST" duration-ms="2206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:16 IST" name="beforeMethod" finished-at="2023-02-08T22:11:16 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test3()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:16 IST" name="test3" finished-at="2023-02-08T22:11:16 IST" depends-on-methods="testNG.TestNG_Task3_WithAttributes.test2" duration-ms="298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:16 IST" name="afterMethod" finished-at="2023-02-08T22:11:19 IST" duration-ms="2317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:19 IST" name="beforeMethod" finished-at="2023-02-08T22:11:19 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test6()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:19 IST" name="test6" finished-at="2023-02-08T22:11:19 IST" duration-ms="274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:19 IST" name="afterMethod" finished-at="2023-02-08T22:11:21 IST" duration-ms="2256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:21 IST" name="beforeMethod" finished-at="2023-02-08T22:11:21 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="fourthTest()[pri:4, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:21 IST" name="fourthTest" finished-at="2023-02-08T22:11:22 IST" duration-ms="692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fourthTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:22 IST" name="afterMethod" finished-at="2023-02-08T22:11:24 IST" duration-ms="2207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:24 IST" name="afterClass" finished-at="2023-02-08T22:11:26 IST" duration-ms="1568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:26 IST" name="afterTest" finished-at="2023-02-08T22:11:28 IST" duration-ms="2217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNG.TestNG_Task3_WithAttributes@7a419da4]" started-at="2023-02-08T22:11:28 IST" name="afterSuite" finished-at="2023-02-08T22:11:28 IST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testNG.TestNG_Task3_WithAttributes -->
+      </class> <!-- testNG_Practice.Asserts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

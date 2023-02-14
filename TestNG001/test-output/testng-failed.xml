@@ -3,23 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.TestNG_Task3_WithAttributes">
+      <class name="testNG_Practice.ParametersEx">
         <methods>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="fourthTest"/>
-          <include name="afterClass"/>
-          <include name="test2"/>
-          <include name="test1"/>
-          <include name="test3"/>
-          <include name="beforeMethod"/>
-          <include name="test6"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
+          <include name="login1"/>
+          <include name="login4"/>
+          <include name="login2"/>
+          <include name="login3"/>
         </methods>
-      </class> <!-- testNG.TestNG_Task3_WithAttributes -->
+      </class> <!-- testNG_Practice.ParametersEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
